@@ -4,27 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="media.css">
-    <title>Vassili Sõmitko</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>Vassili Sõmitko</h1>
+        <div class="vh100">
+            <section>
+                <div class='air air1'></div>
+                <div class='air air2'></div>
+                <div class='air air3'></div>
+                <div class='air air4'></div>    
+            </section>
+
+            <div id="topBar">
+                <h2 id="logo">Vassili Sõmitko</h2>
+            </div>
+
+          
+            <div id="aboutMe">
+                <img src="image.jpg">
+                <div style="width: 100%;">
+                    <div id="greetings">
+                        <h1>I'M <span class="colortext">VASSILI SÕMITKO</span></h1>
+                        <p><b>responsible worker</b></p>
+                    </div>
+                    <div id="contacts">
+                        <p><b>Age:</b> 19</p>
+                        <p><b>Email:</b> v.somitko@gmail.com</p>
+                        <p><b>Tel:</b> +37259821232</p>
+                        <p><b>Website:</b> www.website.ee</p>
+                        <p><b>Address:</b> Lasnamäe, Tallinn, Estonia</p>
+                    </div>
+                    <div id="buttons">
+                        <a href=""><img src="vk.png"></a>
+                        <a href=""><img src="gmail.png"></a>
+                        <a href=""><img src="cv.png"></a>
+                        <a href=""><img src="github.png"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <nav>
-        <h1>Why I am learning in this school?</h1>
-        <h1>How I hope it helps me in the future?</h1>
-        <h1>Who I want to be when I grow up?</h1>
-    </nav>
     <main>
-        
+        <h1>Skills</h1>
+        <div id="skills">
+            <div class="left">
+                <h2>Language:</h2>
+                <h3>English (technical)</h3>
+                <h3>Estonian (B1)</h3>
+                <h3>Russian (native)</h3>
+            </div>
+            <div class="right">
+                <h2>Computer:</h2>
+                <h3>HTML, CSS - Advanced</h3>
+                <h3>Assembling computers - Advanced</h3>
+                <h3>1C, work with the cash register - Beginner</h3>
+            </div>
+            <div class="left">
+                <h2>Driver's licence:</h2>
+                <h3>B - half-year</h3>
+                <h3>AM - half-year</h3>
+            </div>
+        </div>
+
+        <div id="experience">
+            <div class="vh100">
+                <div id="content" style="margin-top: 25%;">
+                    <h1>Education</h1>
+                    <h3>Tallinna Mustamäe Humanitaargümnaasium (Eesti) 2010-2020</h3>
+                    <h3>Tallinna Polütehnikum (Eesti) 2020-2023 - not completed</h3>
+                    <br>
+                </div>
+                <h1 style="margin-top: 50px;">Work experience</h1>
+                <div style="display: flex;">
+                    <div id="content" style="width: 45%; margin-right: 10%;">
+                        <br>
+                        <h2>Klienditeenindaja 03.2023</h2>
+                        <h3>Reitan Convenience Estonia AS  Eesti</h3>
+                        <h4>www.rkiosk.ee</h4>
+                        <h4>Müük</h4>
+                        <i><h4>Mina vastutasin kaupade atraktiivse paigutuse eest kaupluses ning täpsuse ja korrektsusega kassaarvelduste tegemise eest. Lisaks suhtlesin klientidega viisakalt ja professionaalselt, pakkusin neile vajalikku nõu ja abi. Olin hoolas ruumi koristamisel ning tagasin varustuse nõuetekohase puhastamise ja hooldamise. Samuti pidasin täpset arvestust ja rakendasin uusi meetodeid parema tulemuse saavutamiseks.</h4></i>
+                        <br>
+                    </div>
+                    <div id="content" style="width: 45%;">
+                        <br>
+                        <h2>Autojuht-kuller 06.2022 - 02.2023</h2>
+                        <h3>Bolt Technology OÜ</h3>
+                        <h4>Infotehnoloogia</h4>
+                        <i><h4>Minu ametiks oli pool aastat kullerina töötada, kus ma vastutasin valmis toitude ja toiduainete turvalise ja hoolika kohaletoimetamise eest.</h4></i>
+                        <br>    
+                    </div>        
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div style="width: 70vw; margin: 0 auto;">
+            <h1>Vassili Sõmitko</h1>
+            <br>
+            <p>+372 5982 1232</p>
+            <p>v.somitko@gmail.com</p>
+            <p>Tallinn, Lasnamäe</p>
+            <p style="right: 15vw; position: absolute; margin-top: -35px;">© Vassili Sõmitko 2023</p>
+        </div>
     </footer>
 </body>
 </html>
