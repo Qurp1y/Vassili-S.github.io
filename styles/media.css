@@ -1,0 +1,32 @@
+@media only screen and (max-width: 860px)
+{
+    body
+    {
+        grid-template-rows: 0 100vh 0;
+    }
+
+    main
+    {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    main #image
+    {
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main #img
+    {
+        border-radius: 50%;
+    }
+
+    main #aboutMe
+    {
+        height: 70%;
+        text-align: center;
+    }
+}
