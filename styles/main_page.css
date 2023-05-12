@@ -8,6 +8,49 @@ body
     grid-template-rows: 25vh 50vh 25vh;
 }
 
+header #logo
+{
+    position: absolute;
+    left: 15%;
+    margin: 0 auto;
+    background: #ffc600;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+header #logo h1
+{
+    margin: 0 !important;
+    color: #fff;
+}
+
+header #links
+{
+    position: absolute;
+    right: 15%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+header #links a
+{
+    margin: 0 !important;
+    font-size: 2vh;
+    color: #000;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+header #links img
+{
+    display: none;
+}
+
+
 main
 {
     width: 70%;

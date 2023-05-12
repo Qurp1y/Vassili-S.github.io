@@ -2,7 +2,34 @@
 {
     body
     {
-        grid-template-rows: 0 100vh 0;
+        grid-template-rows: 7vh 93vh 0;
+    }
+
+    header #logo
+    {
+        display: none;
+    }
+
+    header
+    {
+        background: #242424;
+    }
+
+    header #links
+    {
+        right: 5%;
+        height: 7vh;
+    }
+
+    header #links img
+    {
+        display: block;
+        height: 80%;
+    }
+
+    header #links a
+    {
+        display: none;
     }
 
     main
