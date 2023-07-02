@@ -2,7 +2,7 @@
 {
     body
     {
-        grid-template-rows: 7% 93% 0;
+        grid-template-rows: 8vh 92vh 0;
     }
 
     header #logo
@@ -18,7 +18,7 @@
     header #links
     {
         right: 5%;
-        height: 7vh;
+        height: 8vh;
     }
 
     header #links img
@@ -42,6 +42,7 @@
     main #image
     {
         height: 30%;
+        margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -56,4 +57,10 @@
         height: 70%;
         text-align: center;
     }
+
+    .popUpButton:hover #popUp
+    {
+        display: flex;
+    }
+
 }
