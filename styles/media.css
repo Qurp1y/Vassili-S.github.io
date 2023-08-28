@@ -52,7 +52,7 @@
         border-radius: 50%;
     }
 
-    main #aboutMe
+    main #aboutMe, main #skills
     {
         height: 70%;
         text-align: center;

@@ -69,3 +69,46 @@ header #links img
     padding: 10px;
     padding-right: 5%;
 }
+
+main
+{
+    width: 70vw;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+main #aboutMe
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main #image
+{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+main img
+{
+    height: 100%;
+    width: 100%;
+}
+
+main #aboutMe p
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+main #aboutMe h2
+{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
